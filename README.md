@@ -2,7 +2,9 @@
 
 **unfold-md** is a custom, recursive markdown extension that introduces an expressive way to define expandable or modal-style content blocks using simple tag-like syntax.
 
-People don't read everything you write, but you can make it easier to consume.  Ever find yourself writing messages or documentation that are overloaded with context, side notes, or background explanations. Often, these details are helpful, but not essential to the main point. Traditional markdown doesn’t offer a clean way to fold or hide that extra content.
+People won't read everything you write, but you can make it easier to skim and consume.
+
+Ever find yourself writing messages or documentation that are overloaded with context, side notes, or background explanations. Often, these details are helpful, but not essential to the main point. Traditional markdown doesn’t offer a clean way to fold or hide that extra content.
 
 **unfold-md** provides a lightweight syntax for embedding expandable content directly in markdown, allowing writers to separate core ideas from optional context without disrupting flow.
 
