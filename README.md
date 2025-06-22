@@ -8,7 +8,6 @@ Ever find yourself writing messages or documentation that are overloaded with co
 
 **unfold-md** provides a lightweight syntax for embedding expandable content directly in markdown, allowing writers to separate core ideas from optional context without disrupting flow.
 
-
 ## Example
 
 ```md
@@ -23,7 +22,7 @@ Ever find yourself writing messages or documentation that are overloaded with co
 }}}
 ```
 
-#### 🎨 Example Rendering (Conceptual)
+#### Example Rendering (Conceptual)
 
 ```markdown
 ## Conceptual Rendering
@@ -42,21 +41,17 @@ When parsed by a renderer that supports `unfold-md`, the above syntax might disp
 This functionality is similar to collapsible sections, modals, or tooltips (and may render that way depending on the parser) — but written entirely in markdown using `[[label]]{{{content}}}` syntax.
 ```
 
-
 ## Syntax
 
-- `[[Label]]` — defines a clickable text or anchor
-- `{{{Content}}}` — defines the hidden content to be shown on interaction
-- The pattern can be **nested recursively**, allowing deeply structured content
-- Only custom parsers or compatible frontends will render this properly
-
+- `[[Label]]` — defines a clickable text or anchor  
+- `{{{Content}}}` — defines the hidden content to be shown on interaction  
+- The pattern can be **nested recursively**, allowing deeply structured content  
+- Only custom parsers or compatible frontends will render this properly  
 
 ## Use Cases
 
-- Interactive or nested documentation
-- Self-revealing educational content
-- In-place glossary terms with explanations (what does xyz mean --> think of a wiki article where you wouldn't need to leave the page you're visiting, even allowing you to go a few pages deep)
-- Markdown-based slide decks with expanding notes
-- Interactive wikis or expandable tables of content
-
-
+- Interactive or nested documentation  
+- Self-revealing educational content  
+- In-place glossary terms with explanations (what does xyz mean → think of a wiki article where you wouldn't need to leave the page you're visiting, even allowing you to go a few pages deep)  
+- Markdown-based slide decks with expanding notes  
+- Interactive wikis or expandable tables of content  
